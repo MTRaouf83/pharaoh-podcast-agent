@@ -8,7 +8,7 @@ from google import genai
 from google.genai import types
 
 # 1. Configuration - Replace with your key
-API_KEY = "AIzaSyAbw4P7FvfvovTOFm9gyVEY3uoKPn_KMik"
+API_KEY = ""
 MODEL_ID = "gemini-2.5-flash"  # Using the active model from your list
 
 client = genai.Client(api_key=API_KEY)
